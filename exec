@@ -1,0 +1,5 @@
+#!/bin/bash
+
+APP_NAME=kent_scheduler
+
+docker exec -ti $APP_NAME sh

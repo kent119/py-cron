@@ -1,0 +1,3 @@
+#!/bin/bash
+docker stop cron_test && docker rm cron_test
+docker rmi kentwisers/py-cron

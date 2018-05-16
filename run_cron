@@ -1,0 +1,10 @@
+#!/bin/bash
+
+APP_NAME=kent_scheduler
+
+CRON_DIR=/home/developer/Users/kent/cronjobs/cronjobs
+
+docker run -d --name $APP_NAME \
+  -m 8192m \
+  -v $CRON_DIR:/opt/tasks \
+  kentwisers/py-cron:latest

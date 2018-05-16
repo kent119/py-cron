@@ -1,0 +1,3 @@
+#!/bin/bash
+NAME=kent_scheduler
+docker stop $NAME && docker rm $NAME
